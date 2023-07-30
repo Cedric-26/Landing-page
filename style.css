@@ -1,0 +1,166 @@
+.container{
+    width: auto;
+    height: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box ;
+    background-color: #1f2937;
+    color: white;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 30px;
+} 
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 60px;  
+}
+nav ul li a{
+    color: whitesmoke;
+    font-size: 13.5;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #f9f8fa;
+    font-size: 48px;
+    font-weight:bold;
+}
+p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.button{
+    width: 90px;
+    background-color:#3882f6;
+    font-size: 12px;
+    padding:12px 0;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-shadow: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.container2{
+
+    background-color:white;
+    color: black;
+    font-weight: bolder;
+
+}
+.container2 h3 {
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 2%;
+    margin-left: 2%; 
+}
+.container2 p {
+    color: black;
+    font-weight: bolder; 
+}
+.photo{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo .pic{
+    flex: 1;
+    text-align: center;
+}
+.photo ul li{
+    display: inline-block;
+    margin-left: 60px;  
+}
+.photo img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.container3{
+    background-color:#e5e7eb ;
+    margin: auto;
+    padding: 30px 400px 30px 400px;
+    text-align: center;  
+    font-size: large;
+}
+.container3 h3{
+    text-align: end;
+}
+.container4{
+    background-color: #3882f6;
+    display: flex;
+    padding: 2%;
+    margin: 50px 200px;
+    color: white;
+}
+.container4 h6{
+    color: transparent;
+    
+}
+.container4 p{
+    color: white;
+}
+.data{
+    display: flex;
+    text-align: center;
+}
+.last{
+    flex: 1;
+}
+footer{
+    background-color:#1f2937;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+h5 img{
+    width: 500px;
+    height: 400px;
+}
+.container4 button{
+    
+        width: 90px;
+        background-color:#3882f6;
+        font-size: 12px;
+        padding:12px 0;
+        border: 1;
+        border-radius: 18px;
+        border-color: white;
+        cursor: pointer;
+}
